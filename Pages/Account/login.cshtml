@@ -1,0 +1,18 @@
+﻿@page
+@model CoreAuth.Pages.Account.loginModel
+@{
+    ViewData["Title"] = "login";
+}
+
+<h2>login</h2>
+
+<form method="post">
+    <label>Usuário: </label>
+    <input type="text" name="UserName" value="" />
+    <br />
+    <label>Senha: </label>
+    <input type="password" name="Password" value="" />
+    <br />
+    <button type="submit">Login</button>
+    
+</form>
